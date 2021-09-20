@@ -14,13 +14,27 @@
                     float: left;
                     margin-right: 10px;
                 }
-                .authorimage
-                {
-                    width: 100px;
-                    height: 100px;
-                }
                 p {
                     font-size: 15pt;
+                }
+                .chip 
+                {
+                    display: inline-block;
+                    padding: 0 25px;
+                    height: 50px;
+                    font-size: 16px;
+                    line-height: 50px;
+                    border-radius: 25px;
+                    background-color: #f8c4c4;
+                }
+
+                .chip img 
+                {
+                    float: left;
+                    margin: 0 10px 0 -25px;
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
                 }
             </style>
         </head>
@@ -37,10 +51,10 @@
                 <p>Від "Каспера" до "вінди".</p>
                 <br>
             </div>
-            <div class="author_profile">
-                <p> Автор: </p>
-                <img class="authorimage" src="author.png" alt="Поздравление"/>
-                <p><small>По вопросам рекламы и обращаться к <a href="https://t.me/bonessnap" target="_blank"><b>Константину</b></a> (telegram)</small></p>
-            </div>
+            <div class="chip">
+                <img src="author.png" alt="Константин" width="96" height="96">
+                <a href="https://t.me/bonessnap" target="_blank"><b>Константин</b></a>
+                <br><small>По вопросам рекламы и обращаться сюда (telegram)</small>
+              </div>
         </body>
 </html>
